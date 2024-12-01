@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mom's Medical Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>Welcome to Mom's Medical Hub</h1>
+
+    <!-- Section 1: Body Map -->
+    <section id="bodyMapSection">
+      <h2>Interactive Body Map</h2>
+      <img src="./assets/body.png" alt="Human Body" id="bodyImage">
+      <div id="bodyInfo">Click on a part of the body to learn more!</div>
+    </section>
+
+    <!-- Section 2: Quiz -->
+    <section id="quizSection">
+      <h2>Medical Quiz</h2>
+      <div id="quizContainer"></div>
+      <button id="startQuizBtn">Start Quiz</button>
+    </section>
+
+    <!-- Section 3: Daily Tip -->
+    <section id="tipsSection">
+      <h2>Daily Medical Tip</h2>
+      <div id="dailyTip"></div>
+    </section>
+
+    <!-- Section 4: Educational Video -->
+    <section id="videoSection">
+      <h2>Educational Video</h2>
+      <video controls>
+        <source src="./assets/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

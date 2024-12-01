@@ -1,0 +1,23 @@
+[
+    {
+      "question": "What is the largest organ in the human body?",
+      "options": ["Heart", "Skin", "Liver"],
+      "answer": "Skin"
+    },
+    {
+      "question": "How many bones are in the human body?",
+      "options": ["206", "208", "210"],
+      "answer": "206"
+    },
+    {
+      "question": "What does the heart pump?",
+      "options": ["Blood", "Air", "Nutrients"],
+      "answer": "Blood"
+    },
+    {
+      "question": "Which organ is responsible for filtering toxins?",
+      "options": ["Kidneys", "Lungs", "Stomach"],
+      "answer": "Kidneys"
+    }
+  ]
+  
